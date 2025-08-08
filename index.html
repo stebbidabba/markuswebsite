@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snjallmiðlar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="public/logo.png" alt="Snjallmiðlar Logo">
+            </div>
+            <ul>
+                <li><a href="#heima">Heima</a></li>
+                <li><a href="#um-okkur">Um okkur</a></li>
+                <li><a href="#thjonusta">Þjónusta</a></li>
+                <li><a href="#hafa-samband">Hafa samband</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="heima">
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1>Velkomin til Snjallmiðla</h1>
+                    <p>Framúrskarandi lausnir fyrir þig.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="um-okkur">
+            <h2>Um okkur</h2>
+            <p>Við erum Snjallmiðlar, nýstárlegt fyrirtæki sem sérhæfir sig í stafrænni markaðssetningu. Markmið okkar er að hjálpa fyrirtækjum að vaxa og ná árangri í hinum stafræna heimi með því að bjóða upp á sérsniðnar og árangursdrifnar lausnir. Með ástríðu fyrir tækni og sköpun, erum við hér til að koma þínu fyrirtæki á næsta stig.</p>
+        </section>
+
+        <section id="thjonusta">
+            <h2>Þjónusta</h2>
+            <div class="packages">
+                <div class="package">
+                    <h3>Grunnpakkinn</h3>
+                    <p class="price">100.000 kr/mán</p>
+                    <ul>
+                        <li>Auglýsingaumsjón á Facebook</li>
+                        <li>Auglýsingaumsjón á Instagram</li>
+                    </ul>
+                    <p>Með því að ná til milljóna notenda á Facebook og Instagram getur þú aukið sýnileika vörumerkis þíns og náð til nýrra viðskiptavina á markvissan hátt.</p>
+                </div>
+                <div class="package">
+                    <h3>Vinsælasti pakkinn</h3>
+                    <p class="price">150.000 kr/mán</p>
+                    <ul>
+                        <li>Allt í grunnpakkanum</li>
+                        <li>Auglýsingaumsjón á TikTok</li>
+                    </ul>
+                    <p>TikTok er ört vaxandi miðill, sérstaklega meðal yngri kynslóða. Með því að vera sýnilegur þar getur þú náð til breiðari markhóps og fylgst með nýjustu straumum.</p>
+                </div>
+                <div class="package">
+                    <h3>Alhliða pakkinn</h3>
+                    <p class="price">200.000 kr/mán (verð getur breyst) </p>
+                    <ul>
+                        <li>Allt í vinsælasta pakkanum</li>
+                        <li>SEO (Leitarvélabestun)</li>
+                        <li>Efnisgerð fyrir samfélagsmiðla</li>
+                    </ul>
+                    <p>Leitarvélabestun (SEO) tryggir að vefsíðan þín finnist auðveldlega á Google og efnisgerð fyrir samfélagsmiðla tryggir að þú hafir alltaf ferskt og áhugavert efni til að deila með fylgjendum þínum.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hafa-samband">
+            <h2>Hafa samband</h2>
+            <div class="contact-info">
+                 <p>Hafðu samband við okkur í gegnum tölvupóst á <a href="mailto:sjnallmidlar@snjallmidlar.is">sjnallmidlar@snjallmidlar.is</a> eða í síma <a href="tel:+3548888888">888-8888</a>.</p>
+                <p>Heimilisfang: Stuðlasel 26, 109 Reykjavík</p>
+            </div>
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>

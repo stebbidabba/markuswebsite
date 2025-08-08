@@ -1,0 +1,162 @@
+:root {
+    --primary-color: #8B5CF6; /* Purple */
+    --primary-color-light: #A78BFA;
+    --primary-color-dark: #6D28D9;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--primary-color-dark);
+}
+
+main {
+    padding-top: 80px; 
+}
+
+section {
+    padding: 4rem 2rem;
+    min-height: 100vh;
+    border-bottom: 1px solid #ddd;
+}
+
+#heima {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('public/landing page');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+
+h2 {
+    color: var(--primary-color-dark);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#um-okkur {
+    background-color: white;
+}
+
+#thjonusta {
+    background-color: var(--background-color);
+}
+
+.packages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.package {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.package h3 {
+    color: var(--primary-color-dark);
+}
+
+.package .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.package ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.package ul li {
+    margin-bottom: 0.5rem;
+}
+
+#hafa-samband {
+    background-color: white;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
