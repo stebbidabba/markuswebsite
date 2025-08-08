@@ -3,13 +3,14 @@
   "name": "markuswebsite",
   "builds": [
     { "src": "index.html", "use": "@vercel/static" },
-    { "src": "public/**", "use": "@vercel/static" },
     { "src": "style.css", "use": "@vercel/static" },
-    { "src": "script.js", "use": "@vercel/static" }
+    { "src": "script.js", "use": "@vercel/static" },
+    { "src": "public/**", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/public/(.*)", "dest": "/public/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/style\.css", "dest": "/style.css" },
+    { "src": "/script\.js", "dest": "/script.js" },
+    { "src": "/public/(.*)", "dest": "/public/$1" }
   ]
 }
 
